@@ -9,10 +9,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R             &kp T                                                 &kp Y        &kp U  &lt 2 I    &lt 2 O  &kp P
-&kp A           &kp S         &kp D             &kp F             &kp G        &mo 6                 &kp BACKSLASH      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&lt 5 Z         &kp X         &kp C             &kp V             &kp B        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_CONTROL  &lt 4 SPACE  &lt 3 CLCK            &kp BACKSPACE      &lt 1 ENTER                             &kp DELETE
+&kp Q             &kp W             &kp E         &kp R                  &kp T                                                 &kp Y        &kp U  &lt 2 I    &kp O    &kp P
+&kp A             &kp S             &kp D         &kp F                  &kp G        &mo 6                 &kp BACKSLASH      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                  &kp B        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
+&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 6 INTERNATIONAL_4  &lt 4 SPACE  &lt 3 CLCK            &kp BACKSPACE      &lt 5 ENTER                             &kp DELETE
             >;
         };
 
@@ -27,10 +27,10 @@
 
         SCROLL {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB2  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans    &trans
+&kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
         };
 
@@ -54,10 +54,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp LA(LG(U))     &kp LA(LC(J))  &kp LA(LC(I))       &kp LA(LC(K))        &kp LA(LC(ENTER))                                    &kp F1        &kp F2                &kp F3  &kp F4  &kp F5
+&kp LA(LC(A))     &kp LA(LC(S))  &kp LA(LC(D))       &kp LA(LC(Q))        &kp LA(LC(R))      &kp LA(LC(E))      &kp F13        &kp F6        &kp F7                &kp F8  &kp F9  &kp F10
+&trans            &trans         &trans              &trans               &trans             &trans             &kp RG(MINUS)  &kp RG(PLUS)  &kp RS(RG(NUMBER_4))  &trans  &trans  &kp F11
+&kp LC(UP_ARROW)  &kp LC(DOWN)   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LG(W)          &kp LG(R)          &kp RG(N0)     &trans                                              &kp F12
             >;
         };
 
