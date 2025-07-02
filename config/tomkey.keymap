@@ -54,7 +54,7 @@
 
         FUNCTION {
             bindings = <
-&kp LA(LG(U))     &kp LA(LC(J))  &kp LA(LC(I))       &kp LA(LC(K))        &kp LA(LC(ENTER))                                    &kp F1        &kp F2                &kp F3  &kp F4  &kp F5
+&kp LA(LC(U))     &kp LA(LC(J))  &kp LA(LC(I))       &kp LA(LC(K))        &kp LA(LC(ENTER))                                    &kp F1        &kp F2                &kp F3  &kp F4  &kp F5
 &kp LA(LC(A))     &kp LA(LC(S))  &kp LA(LC(D))       &kp LA(LC(Q))        &kp LA(LC(R))      &kp LA(LC(E))      &kp F13        &kp F6        &kp F7                &kp F8  &kp F9  &kp F10
 &trans            &trans         &trans              &trans               &trans             &trans             &kp RG(MINUS)  &kp RG(PLUS)  &kp RS(RG(NUMBER_4))  &trans  &trans  &kp F11
 &kp LC(UP_ARROW)  &kp LC(DOWN)   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LG(W)          &kp LG(R)          &kp RG(N0)     &trans                                              &kp F12
